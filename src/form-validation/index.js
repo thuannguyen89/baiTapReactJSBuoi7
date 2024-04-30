@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
 import FormInput from "./formInput";
 import Search from "./search";
 import Students from "./students";

@@ -134,8 +134,7 @@ class FormInput extends Component {
                             <input type="text" className="form-control" placeholder="Mã Sinh Viên" value={this.state.values.id} 
                                 name="id" 
                                 onChange={this.handleOnchange} 
-                                onBlur={this.handleOnchange}
-                                disabled={this.state.values.id ? 'disabled' : ''} />
+                                onBlur={this.handleOnchange} />
                             { this.state.errors.id && (
                                 <span className="text text-danger">{this.state.errors.id}</span>
                             )}

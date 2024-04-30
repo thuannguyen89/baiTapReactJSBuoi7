@@ -11,11 +11,7 @@ class Students extends Component {
     }) : [];
 
     return listStudentsFilter?.map((student) => {
-      return <StudentItem 
-        key={student.id} 
-        student={student}
-        getEditStudent={getEditStudent} 
-        />;
+      return <StudentItem key={student.id} student={student} getEditStudent={getEditStudent} />;
     });
   };
 
